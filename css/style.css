@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table tr td {
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #fb8b24;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e36414;
+}
